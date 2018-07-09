@@ -1,0 +1,202 @@
+body {
+	font-family: arial;
+	background-color: #f0f0f0;
+}
+
+
+header {
+	display: inline-block;
+	width: 100%;
+	background-color: #873131;
+}
+
+
+.logo {
+	float: left;
+	padding:  26px;
+}
+
+.nav {
+	float: right;
+	margin-right: 25px;
+	padding-top: 49px;
+	padding-bottom:  25px;
+}
+
+.nav ul li {
+	display: inline;
+	margin-left: 20px;
+}
+	
+.nav ul li a {
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	text-decoration: none; 
+}
+
+.nav ul li a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.blueberry {
+	max-width: 960px;
+	margin-top:  25px;
+	margin-bottom: 88px;
+}
+
+.one-third {
+	width: 29%;
+	margin: 2%;
+	float: left;
+	text-align: center;
+}
+
+.one-third i {
+	color: #555555;
+}
+
+.one-third h1 {
+	margin-top: 28px;
+	margin-bottom: 30px;
+	font-size: 22px;
+	color:  #555555;
+	font-weight: bold;
+}
+
+.one-third p {
+	font-size: 14.5px;
+	color:  #555555;
+	line-height:  20px;
+	margin-bottom: 85px ;
+}
+
+article{
+	width: 50%;
+	margin: 5%;
+	float: left;
+
+}
+article img{
+	width: 100%;
+}
+
+aside {
+	margin-top: 50px;
+	float: right;
+	width: 40%;
+}
+
+aside h2 {     
+	font-size: 17px;      
+	color: #555555;     
+	line-height: 55px;
+	margin-left: 50px;
+	font-weight: 600; 
+}
+
+aside h3 {
+	font-size: 22px;
+	font-weight: 600;
+	color: #555555;
+	margin-bottom: 40px;
+	text-decoration: underline;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.one-third img {
+	margin-bottom: 14px;
+}
+
+footer {
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 30px;
+	background-color: #542a32;
+}
+
+.one-third article {
+	margin-bottom: 37px;
+	color: white;
+}
+
+.one-third h1.color {
+	color: white;
+	padding-top: 40px;
+}
+
+.one-third span {
+	color: white;
+	line-height: 25px;
+}
+.one-third ul img {
+	margin-top: 25px;
+	height:  170px;
+}
+
+.one-third ul li {
+	display: inline;
+}
+
+.one-third ul li i {
+	color: white;
+}
+
+.footer2 {
+	background-color: #3d3d3d;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	text-align: center;
+	color: white;
+}
+
+.clear{
+	clear: both;
+}
+img{
+	max-width: 100%;
+}
+.icon{
+	display: none;
+}
+@media only screen and (max-width: 768px){
+	 .slider {
+		display: none;
+	}
+	.one-third,aside,article {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	.icon{
+		position: absolute;
+		top: 30px;
+		right: 20px;
+		display: block;
+		color: white;
+		font-size: 30px;
+	}
+	.nav:hover ul{
+		display: block;
+	}
+	.nav ul {
+		background-color: gray;
+		position: absolute;
+		top: 47px;
+		right: 19px;
+		width: 50%;
+		display: none;
+		
+	}
+
+	.nav ul li {
+		width: 100%;
+		display: block;
+		text-align: center;
+		line-height: 30px;
+		margin: 0;
+	}
+}
